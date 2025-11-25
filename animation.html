@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            height: 300px;
+           
+        }
+        .ball{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation: move 1s infinite;
+        }
+        @keyframes move{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(300px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+        </style>
+</head>
+<body>
+    <div class="ball">
+        <img height="200px"width="200px"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_NDcFFysZZ9udBGbHXNZqzLgP5pIX_HGFAg&s">
+    </div>
+</body>
+</html>
